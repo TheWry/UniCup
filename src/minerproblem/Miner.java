@@ -72,6 +72,9 @@ public class Miner {
     public String getType(){
         return type;
     }
+    public ArrayList<String> getResources(){
+        return currentResources;
+    }
     
     
 }
