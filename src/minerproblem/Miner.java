@@ -60,11 +60,18 @@ public class Miner {
     public void pickUp(String resource){
         currentResources.add(resource);
     }
+    public int getMax(){
+        return maxResources;
+    }
     public void deposit(String resource){
         currentResources.remove(resource);
     }
     public int getCost(){
         return cost;
     }
+    public String getType(){
+        return type;
+    }
+    
     
 }

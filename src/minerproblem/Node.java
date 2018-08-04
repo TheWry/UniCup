@@ -11,6 +11,7 @@ public class Node {
     int xLoc;
     int yLoc;
     String type;
+    int resources;
     public Node(int index, String tag, int xLoc, int yLoc){
         this.index=index;
         this.tag=tag;
@@ -23,5 +24,4 @@ public class Node {
     public String getType(){
         return type;
     }
-    
 }

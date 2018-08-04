@@ -15,6 +15,6 @@ public class Factory extends Node {
         super(index, tag, xLoc, yLoc);
         type="factory";
     }
- 
+
     
 }
