@@ -13,9 +13,8 @@ public class Factory extends Node {
     
     public Factory(int index, String tag, int xLoc, int yLoc) {
         super(index, tag, xLoc, yLoc);
+        type="factory";
     }
-    public String getType(){
-        return "Factory";
-    }
+    
     
 }

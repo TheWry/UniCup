@@ -16,6 +16,7 @@ public class Mine extends Node {
         super(index, tag, xLoc, yLoc);
         this.resources=resources;
         depleted=false;
+        type="mine";
     }
     
     public void deplete(){
@@ -29,8 +30,6 @@ public class Mine extends Node {
         else
             System.out.println("Mine already depleted");
     }
-    public String getType(){
-        return ("mine");
-    }
+    
     
 }

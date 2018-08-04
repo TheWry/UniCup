@@ -66,5 +66,8 @@ public class Miner {
     public int getCost(){
         return cost;
     }
+    public String getType(){
+        return type;
+    }
     
 }
